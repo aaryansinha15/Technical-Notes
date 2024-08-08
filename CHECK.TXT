@@ -1,0 +1,57 @@
+this text file is used to understand how git works. 
+task that it will be followed
+-----------------------------------------------
+
+1. Creating a text file.
+2. overwite the text file with some data. 
+3. add it using git commands 
+4. check if the particular file along woth the folder is pushed or not?
+5. stage it (checking happens here)
+6. commit it with particular commit message
+7. check the committed message
+8. push it to the repositorycls
+
+checked all the steps and it is working fine.
+
+now checking it with creating a new file and then checking 
+
+
+git commands
+
+NAME ALIASES USED ->  "." is also referd to as root. 
+
+git init = to initialize the repository of the local. 
+
+git status = tells you the status of the file. it can go as such, git has three stages 
+            -> stage 1 -> untracked ( the file is created (anytype of file) and you have added your codes or texts or changes)
+            -> stage 2 -> staged ( the file that is on stage 1 is now being stages using the "commit" command with some message. It can have two fields that is "untracked" and "modified")
+            -> stage 3 -> added ( the file that is on stage 2 is now being added to the repository using the "push command")
+            
+git add = to add the untracked files to the staging area or stage2.   
+            -> "add ." means to add all the files which is there to the local. 
+            -> add "./file name" means to add the specific file to the repository. (it is better to do this since doing the above will include a common message to all the files in the repository.
+             using the complete path of the file is always better.)
+            
+git commit = it is used to add the message to the staged file. 
+            -> git commit -m "your_message" -> it is used when the file is untracked and the file is first time being added to the staged area.
+            -> git commit -am "your_message" -> it is used when the file that is already being added to the repository had some changes and the changes have been successfully done then file is used
+                                                with "-am" to add the message changes. 
+
+git push = it is used to push the file from the staged area to the repository on github. These are the basic steps.
+
+git branch = when you are working on a project say a calculator you have created a html and css file with little javascript file. now you wanted to add more featur in the application and you dont want to chnage the 
+            code right now. So you create a branch of the main branch and then you do the chnages there. 
+
+            -> git branch -> tells you the list of branches you have in the repository. 
+            -> git checkout "branch_name" -> navigates to the selected branch.
+            -> git branch -M "branch_name"-> to change the branch name. 
+            -> git checkout -b "branch_name" ->gives you to create a new branch
+            -> git checkout -d "branch_name" -> deletes the branch                    
+
+merging in github= when we have created a new branch then we can easily merge the new branch to the main branch and we can compare them also. 
+
+git diff "branch_name" -> tells you the chnages in the branch_name with the current branch where you are working. 
+
+git merge "branch_name" -> to merge the current branch and the new branch. 
+
+git pull-> fetches the changes from the branch to the main 
