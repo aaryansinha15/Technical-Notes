@@ -1,0 +1,21 @@
+flutter basics to be written
+
+cmd -> go to the folder, create one folder and in that write this 
+
+    -> flutter create name_of_the_folder
+    -> wait till the folder is created
+    -> flutter run. 
+
+-> environem setup 
+    -> command is python -m venv my_env
+
+    -> activate it using the the "source my_env/bin/activate"
+    
+    ->pip install -r requirements.txt (before that create the requirements
+                    text file and add the dependencies.)
+
+    -> freeze the requirements text. 
+            -> command is -> pip freeze > requirements.txt
+
+    -> hold it up till the project.
+
