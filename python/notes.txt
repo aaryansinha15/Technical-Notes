@@ -1,0 +1,6 @@
+lambda function is used for multiple arguments but single expression
+    ->lambda arguments : expression
+    -> lambda x,y,u,i: x+1
+
+map function is used for usinf the function and iterable. 
+    -> map(function_name, iterable)
