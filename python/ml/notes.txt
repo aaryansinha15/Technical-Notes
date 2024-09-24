@@ -1,0 +1,90 @@
+ML algorithms are the algorithms which comes under scikit learn module. 
+
+    -> To understand nicely we can go through the following chart 
+
+        Start
+            -> if(sample >50 ):
+                predicts the category(yes)
+     C              if(data == labelled data):
+     L      C              if(labelled_data <100k sample):
+     U      L                  print("Linear SVC)
+     S      A                  if(!working == LinearSVC):
+     T      S                     check data == text data
+     E      S                          if yes then 
+     R      I                          print(Naive Bayes)
+     I      F                  else
+     N      I                  print('KNN clasifier)
+     G      C                  else 
+     .      A                  print(SVC or Ensemble Clasifier)
+     .      T              else:
+     .      I              print(SGD Classifer)
+     .      O              if(!working):
+     .      N                 print("Kernel approximation)
+                    else(!labelled):
+                    check(number of categgories know)
+                       if(count[categories]>10k):
+                           print(MiniBatch Kmeans)
+                        else:
+                           print(Kmeans)
+                           if(!working):
+                               print(Special Clustering GMM)
+                        else(count[categories]<10k):
+                            print(MeanShift VBGMM)
+                        if(!<10k)
+                        print(tough luck bro!! chose another dataset)
+     R           predicting a quantity(yes)
+     E             if(sample<100k) 
+     G                   print(Few Feature should be important.)
+     R                       if(yes)
+     E                           print("Lasso elastic net)
+     S                       else:
+     S                           print(Ridge Regression SVR(Kernel == 'linear))
+     I                           if(! working):
+     O                           print("SVR(kernel = 'rbf) ensemble regressors)
+     N            predicting a quantity(no):
+  D                  go thriugh the data 
+  I                      if(yes):
+  M                          print(Randomized PCA)
+  E                              if(!working)
+  N                                  check(count <10k)
+  S                                      if yes()
+  I                                      print(isomap, Spectaral Enmbedding)
+  O                                          if(!working)
+  N                                              print(LLE)
+  A                                  else 
+  L                                      print(Kernel approximation),                          
+  I                      if(no)
+  T                          predictong the structure
+  Y
+                            print(tough luck bro)            
+  R                  
+  E
+  D
+  U
+  C
+  T
+  I
+  O
+  N
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    start -> -> if(sample >50 ) -> predicts the category -> if(data == labelled data) ->
