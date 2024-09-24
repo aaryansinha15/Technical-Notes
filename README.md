@@ -1,2 +1,2 @@
-# github_commands_self
+# technical notes
 all self useful commands
