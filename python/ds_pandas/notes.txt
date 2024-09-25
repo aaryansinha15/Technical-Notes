@@ -1,0 +1,10 @@
+Preprocessing Technizues
+
+    To check the NA value counts in the csv file we can see this lOC.
+        ->name_of_csv.isna().sum()
+
+    To fill the missing values we can do these things 
+        ->df.fillna()-> there are many methods for us to get more prescribed for filling na values
+        
+        ->df.interpolate()-> same here. Can go thriugh it.
+        
