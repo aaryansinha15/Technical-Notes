@@ -8,3 +8,7 @@ Preprocessing Technizues
         
         ->df.interpolate()-> same here. Can go thriugh it.
         
+    To make the value counts of the csv coulmns if any then we can use this
+        -> df.value_counts()
+    then we can create a pie chart for this to get more understanding in temrs of visualizations!!
+        -> pass it into a the function of pie chart
