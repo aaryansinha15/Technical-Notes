@@ -12,3 +12,8 @@ Preprocessing Technizues
         -> df.value_counts()
     then we can create a pie chart for this to get more understanding in temrs of visualizations!!
         -> pass it into a the function of pie chart
+        -> for this if you want the labels to be displayed then you can do this 
+                -> labels = df.index -> inside the fucntion of pie chart. 
+        
+    -> to add the colour other than solid colours use the cmap library. 
+        ->and pass that as variable to the colours.  
