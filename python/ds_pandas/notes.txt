@@ -17,3 +17,60 @@ Preprocessing Technizues
         
     -> to add the colour other than solid colours use the cmap library. 
         ->and pass that as variable to the colours.  
+
+    
+    ML MODEL Start
+
+    -> After data exploratory the main aim is to understand the training and testing splittaion of data!!
+
+        -> import the libs from sklearn.model_selection import test_train_split
+            
+            ->concept to understand before dividing the dataset. 
+                -> x parameters containing the df features created or alreday exixting.
+                    -> Independent variables know as predictors or features. 
+                        -> Using them the outcomes are generated. 
+                
+                ->Y parameter known as Dependent variables. they are influenced by the Independent parameters. 
+                    
+                Examples -> Independent variables -> Studying Hours. 
+                            Dependent variables -> Score in test 
+                    -> Here what is happending that using the Studying hours factor we can gain the understanding if 
+                        the score in tests were good or not. 
+
+                -> axis = 1
+            
+            ->x_train = features for training 
+            ->x_test =  features for testing
+            ->y_train = target variable for training
+            ->y_test =  target variables for testing
+
+            -> test_size = a float value which tell that the percentage of the test_size data should be 
+                            used for testing. generarlly it should be 0.2 so 20% fro testing and 80% for training. 
+
+            -> random_state= an integer value which sets a radom seed for reproducibility.. this will make sure the data 
+                            will be split into that same state everytimes the code runs. 
+
+            now the main codes here!!! 
+
+                -> x = df.drop([]) drop the columns which can create the model not to learn. here droppping doesnt mean the data 
+                        which can create the model to learn unnecesary things but the data which can leak the values. 
+
+                        Like in sales total can be a cloumm which can make the model to learn not properly!! 
+
+                -> y = df[] in this add the target varibales which were dropped in the x variables. 
+                         all the columns can be added but some which can be beneficial for 
+                         the model to learn. You can create multiple models for that then.
+
+                -> X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+                    -> the above can be changed but keep in mind that you have to change the x and y variables according to you!!
+            
+            -> "Keep in mind when droppping the features in X_train drop all those which are object type and string items. 
+
+            -> "for the RMSE(Root Mean Squared Error) you need to check these checkpoints :-
+                    -> Initialize the mean-squared error mse = (y_test,y_pred). y_pred is the Initialization of
+                        model.predictor(X_test)
+                    -> rmse = np.sqrt(mse)
+                    ->print(rmse)
+
+            
