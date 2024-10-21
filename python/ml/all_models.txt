@@ -1,0 +1,6 @@
+-> Personal Guidance of all the models.
+
+    -> Supervised Learning Model:-
+        
+        ->Linear Models:- It is the model in which our aim for the model is to get the output value or the predicted value 
+                          to be a linear value. That is the combination of features to get a target value as linear.
