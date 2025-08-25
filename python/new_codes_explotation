@@ -12,7 +12,14 @@ in false then it will print in reverse mode.
 > there is a difference between sort and sorted where sort returns the array but sorted returns a new array and does not modify the original array. 
 
 
+> Doing More Work Within a for Loop
+You can do just about anything with each item in a for loop. Let's bu the previous example by printing a message to each magician, tellin that they performed a great trick
 
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+		print (f"'(magician.title()}, that was a great trick!")
+
+so here for each value of list we are doing the work for each element using the for loop 
 
 
 
