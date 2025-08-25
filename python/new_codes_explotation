@@ -30,7 +30,9 @@ so here for each value of list we are doing the work for each element using the 
 
 
 
+																	FOR LOOP 
 
+> difference between range and in() is that in range we iterates through a set of range a specific value  where as the in helps to iterate through a string or list. 
 
 
 												               LIST Codes 
@@ -51,3 +53,11 @@ except Exception as e:
 
 	not le this should be inside a function to be called and it's good for competitive programming)
 
+
+> in list we can give the range also 
+
+my= list(range(1,6))
+this will give the list starting from 1 to 5 
+
+my= list(range(2,11,2)) 
+this will give the range from 2 to 10 all even as 2 step is inserte. 
