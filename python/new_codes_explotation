@@ -1,3 +1,33 @@
+																				Random codes 
+
+> if we want to access the last code then simply type -1 will you get the list when you don't  actually know the size of the array. 
+
+> APPENDING is adding in the order where as if you want to add at any specific place then use INSERT. 
+
+> same for pop and removing. 
+
+> for sorting there is a parameter called reverse which is in default false if you set it up 
+in false then it will print in reverse mode. 
+
+> there is a difference between sort and sorted where sort returns the array but sorted returns a new array and does not modify the original array. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												               LIST Codes 
+
 # taking the list input in a new way:
 
 try:
