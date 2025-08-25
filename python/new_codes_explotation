@@ -1,0 +1,16 @@
+# taking the list input in a new way:
+
+try:
+	n = int(input("enter the size of the list"))
+	list1= list(map("int,input("enter the elements of the list").split()))
+	
+	if len(list1)==n:
+		print("you have successfully created a list")
+	else:
+		print("error with the size of the array")
+
+except Exception as e:
+	print(f"the following error is what you got {e}")
+
+	not le this should be inside a function to be called and it's good for competitive programming)
+
